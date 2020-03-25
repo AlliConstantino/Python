@@ -1,0 +1,3 @@
+n1 = int(input("Por favor digite um numero: "))
+n2 = int(input("Por favor digite o segundo numero: "))
+print ("O numero digitado foi", n1 + n2)
