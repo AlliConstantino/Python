@@ -1,0 +1,4 @@
+b = float(input("Por favor digite o valor da base do quadrado : "))
+h = float(input("Por favor digite o valor da altura do quadrado : "))
+area = b * h
+print("O valor da area do círculo é " ,(area ** 2)) 
