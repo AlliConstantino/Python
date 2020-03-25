@@ -1,0 +1,2 @@
+n = int(input("Por favor digite o numero desejado: "))
+print("{} metros equivale a {} centimetros" .format(n, n*100))
