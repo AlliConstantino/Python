@@ -1,0 +1,4 @@
+F = float(input("Por favor digite a temperatura desejada : "))
+C = round(((5 * (F - 32)) / 9) , 1) #Aqui o round serve para deixar apenas 1 casa depois da virgula/ponto
+
+print("A temperatura em celsius é de" ,C)
