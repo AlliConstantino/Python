@@ -1,0 +1,4 @@
+t = float(input("Por favor digite o numero de horas trabalhadas : "))
+h = float(input("Por favor digite o quanto você ganha por hora : "))
+
+print("O valor do seu salário este mês é" ,(t * h))
