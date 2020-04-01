@@ -1,0 +1,3 @@
+altura = float(input("Por favor digite sua altura: "))
+peso_ideal = ((72.7 * altura) - 58)
+print("Este é seu peso ideal: {} kg".format(round(peso_ideal)))
