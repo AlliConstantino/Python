@@ -1,0 +1,23 @@
+int_1 = int(input("Por favor digite o primeiro numero inteiro: "))
+int_2 = int(input("Por favor digite o segundo numero inteiro: "))
+real = int(input("Por favor digite o numero real: "))
+
+#calculos
+
+#a
+dobro_primeiro = (2 * int_1)
+print("Esse é o dobro do primeiro número:",dobro_primeiro)
+
+metade_segundo = (int_2/2)
+print("Essa é a metade do segundo número:",metade_segundo)
+
+print("Esse é o produto do dobro do primeiro número com a metade do segundo número {}".format(dobro_primeiro * metade_segundo))
+
+#b
+triplo_primeiro = (3 * int_1)
+print("Este é o triplo do primeiro número: ",triplo_primeiro)
+soma_dos = triplo_primeiro + real
+print("Essa é a soma do triplo do primeiro com o terceiro",soma_dos)
+
+#c
+print("Este é o triplo do terceiro número: ",(real**3))
