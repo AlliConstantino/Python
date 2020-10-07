@@ -1,0 +1,33 @@
+import random
+
+opcoes = ["pedra","papel","tesoura"]
+
+escolha_pc = random.choice(opcoes)
+
+palpite = input("Escolha entre pedra, papel ou tesoura: ")
+
+print("A escolha do computador foi", escolha_pc)
+
+#possibilidades quando jogador escolhe papel
+if (palpite == "papel") and (escolha_pc == "papel"):
+    print("Empate, ambos escolheram papel. ")
+elif (palpite == "papel") and (escolha_pc == "tesoura"):
+    print("Tesoura vence papel, computador venceu!")
+elif (palpite == "papel") and (escolha_pc == "pedra"):
+    print("Papel vence pedra, você venceu!")
+    
+#possibilidades quando jogador escolhe tesoura
+elif (palpite == "tesoura") and (escolha_pc == "tesoura"):
+    print("Empate!Ambos escolheram tesoura.")
+elif (palpite == "tesoura") and (escolha_pc ==  "papel"):
+    print("Tesoura vence papel, você venceu!")
+elif (palpite == "tesoura") and (escolha_pc == "pedra"):
+    print("Pedra vence tesoura, computador venceu!")
+    
+#possibilidades quando jogador escolhe pedra
+elif (palpite == "pedra") and (escolha_pc == "pedra"):
+    print("Empate!Ambos escolheram pedra.")
+elif (palpite == "pedra") and (escolha_pc ==  "papel"):
+    print("Papel vence pedra, computador venceu!")
+elif (palpite == "pedra") and (escolha_pc == "tesoura"):
+    print("Pedra vence tesoura, você venceu!")
